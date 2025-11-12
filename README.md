@@ -1,0 +1,1 @@
+Jorge, el proyecto aun no esta dento ya que el ordenadorde mi casa no tiene la ultima version de unity instalada (temas de espacio) aun asi en el video puedes ver un blockig de carpetas, y organizacion que metere como paquete cuando creemos el proyecto bueno

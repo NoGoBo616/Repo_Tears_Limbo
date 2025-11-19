@@ -10,8 +10,15 @@ public class NPC_Dialogue : MonoBehaviour
     public TMP_Text tmp;
     public bool canTalk;
     public int frasePrevia;
-    public int minigame;
+    public GameObject minigame;
     public bool hasMinigame;
+    public Player_Controller player;
+
+    private void Start()
+    {
+        minigame.SetActive(false);
+        player = GetComponent<Player_Controller>();
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -39,7 +46,7 @@ public class NPC_Dialogue : MonoBehaviour
         {
             if (dialogoAct == frasePrevia && hasMinigame)
             {
-                SceneManager.LoadScene(minigame);
+                minigame.gameObject.SetActive(true);
             }
             dialogoAct++;
             StartCoroutine(Cool());

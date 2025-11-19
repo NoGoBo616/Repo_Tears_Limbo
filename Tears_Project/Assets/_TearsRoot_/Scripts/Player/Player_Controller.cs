@@ -14,6 +14,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] Vector2 moveinput;
 
     [Header("UI")]
+    public float corason;
     public bool pause;
 
     [Header("Objects")]
@@ -41,7 +42,6 @@ public class Player_Controller : MonoBehaviour
             boy.gameObject.SetActive(false);
             girl.gameObject.SetActive(true);
         }
-
         Flip();
     }
 
@@ -66,7 +66,7 @@ public class Player_Controller : MonoBehaviour
 
     public void Flip()
     {
-        if (moveinput.x > 0 && !flip)
+        if (moveinput.x > 0 && !flip )
         {
             flip = true;
             gameObject.transform.localScale = new Vector2(1, 1);

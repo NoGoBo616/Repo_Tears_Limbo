@@ -5,6 +5,7 @@ public class Minigame_Timer : MonoBehaviour
 {
     public float timeCrono;
     public Image cronoVista;
+    public float puntos;
 
     private void OnEnable()
     {

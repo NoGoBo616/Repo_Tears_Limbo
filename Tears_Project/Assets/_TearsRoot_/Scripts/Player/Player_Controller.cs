@@ -27,6 +27,7 @@ public class Player_Controller : MonoBehaviour
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        corason = 50;
         //DontDestroyOnLoad(this.gameObject);
     }
 

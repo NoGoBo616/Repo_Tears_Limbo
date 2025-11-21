@@ -12,6 +12,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] bool flip;
     public bool isGronded;
     [SerializeField] Vector2 moveinput;
+    [SerializeField] GameObject fliped;
 
     [Header("UI")]
     public float corason;
@@ -70,12 +71,12 @@ public class Player_Controller : MonoBehaviour
         if (moveinput.x > 0 && !flip )
         {
             flip = true;
-            gameObject.transform.localScale = new Vector2(1, 1);
+            fliped.gameObject.transform.localScale = new Vector2(1, 1);
         }
         if (moveinput.x < 0 && flip)
         {
             flip = false;
-            gameObject.transform.localScale = new Vector2(-1, 1);
+            fliped.gameObject.transform.localScale = new Vector2(-1, 1);
         }
     }
 

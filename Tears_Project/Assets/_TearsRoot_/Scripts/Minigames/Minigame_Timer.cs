@@ -6,6 +6,7 @@ public class Minigame_Timer : MonoBehaviour
     public float timeCrono;
     public Image cronoVista;
     public float puntos;
+    public NPC_Dialogue NPC;
 
     private void OnEnable()
     {
@@ -20,5 +21,11 @@ public class Minigame_Timer : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+    }
+
+    private void OnDisable()
+    {
+        NPC.hearts = NPC.hearts + puntos;
+        puntos = 0;
     }
 }

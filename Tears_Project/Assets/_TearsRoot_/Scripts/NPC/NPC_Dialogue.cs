@@ -52,7 +52,7 @@ public class NPC_Dialogue : MonoBehaviour
             canTalk = true;
         }
     }
-
+    
     public void HandleTalk()
     {
         if (canTalk && !player.pause)
@@ -69,9 +69,10 @@ public class NPC_Dialogue : MonoBehaviour
             }
             dialogoAct++;
             StartCoroutine(Cool());
-            if (dialogoAct == dialogo.Length - 1)
+            if (dialogoAct == dialogo.Length)
             {
                 player.corason = player.corason + hearts;
+                hearts = 0;
             }
         }
     }

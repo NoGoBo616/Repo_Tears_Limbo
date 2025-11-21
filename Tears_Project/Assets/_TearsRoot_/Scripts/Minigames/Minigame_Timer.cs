@@ -25,7 +25,7 @@ public class Minigame_Timer : MonoBehaviour
 
     private void OnDisable()
     {
-        NPC.hearts = NPC.hearts + puntos;
+        NPC.hearts = NPC.hearts + puntos/10;
         puntos = 0;
     }
 }

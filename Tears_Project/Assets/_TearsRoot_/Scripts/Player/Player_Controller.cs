@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Player_Controller : MonoBehaviour
     public bool isGronded;
     [SerializeField] Vector2 moveinput;
     [SerializeField] GameObject fliped;
+    [SerializeField] Image cocoro;
 
     [Header("UI")]
     public float corason;
@@ -45,6 +47,17 @@ public class Player_Controller : MonoBehaviour
             girl.gameObject.SetActive(true);
         }
         Flip();
+
+        if (corason >= 100)
+        {
+            corason = 100;
+        }
+        if (corason <= 0)
+        {
+            corason = 0;
+        }
+
+        cocoro.fillAmount = corason / 100;
     }
 
     //Movement

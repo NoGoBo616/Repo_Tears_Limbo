@@ -15,7 +15,7 @@ public class Minigame_Timer : MonoBehaviour
 
     private void Update()
     {
-        timeCrono = timeCrono - 0.01f;
+        timeCrono = timeCrono - 1f * Time.deltaTime;
         cronoVista.fillAmount = timeCrono / 60;
         if (timeCrono <= 0)
         {

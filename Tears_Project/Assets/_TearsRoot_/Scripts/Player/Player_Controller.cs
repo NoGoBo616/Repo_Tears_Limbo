@@ -101,6 +101,7 @@ public class Player_Controller : MonoBehaviour
         {
             if (isGronded)
             {
+                isGronded = false;
                 playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             }
         }

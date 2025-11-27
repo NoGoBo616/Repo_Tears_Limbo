@@ -10,9 +10,16 @@ public class Minigame_Timer : MonoBehaviour
     public NPC_Dialogue NPC;
 
     public Animator anim;
+    public Rigidbody2D rb;
 
     private void OnEnable()
     {
+        rb.bodyType = RigidbodyType2D.Kinematic;
+
+        // Opcional: Detener cualquier velocidad/fuerza actual
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+
         anim.SetTrigger("In");
         timeCrono = 60;
     }
@@ -37,6 +44,7 @@ public class Minigame_Timer : MonoBehaviour
     {
         anim.SetTrigger("Out");
         yield return new WaitForSeconds(2);
+        rb.bodyType = RigidbodyType2D.Dynamic;
         gameObject.SetActive(false);
         yield return null;
     }

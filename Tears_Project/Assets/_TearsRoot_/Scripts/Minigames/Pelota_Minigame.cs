@@ -5,6 +5,7 @@ public class Pelota_Minigame : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float time;
+    public Minigame_Timer minigame;
 
     private void OnEnable()
     {
@@ -24,6 +25,7 @@ public class Pelota_Minigame : MonoBehaviour
         if (collision.gameObject.CompareTag("bolita"))
         {
             this.gameObject.SetActive(false);
+            minigame.puntos = minigame.puntos - 5;
             this.gameObject.transform.position = new Vector2(Random.Range(-0.1f, -0.11f), 7);
             this.gameObject.SetActive(true);
         }

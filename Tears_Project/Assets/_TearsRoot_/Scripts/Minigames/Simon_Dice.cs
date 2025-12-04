@@ -114,7 +114,7 @@ public class Simon_Dice : MonoBehaviour
         Vector3 originalScale = escalasOriginales[indice];
 
         // Cambiar color a blanco
-        img.color = Color.mediumPurple;
+        img.color = Color.lightPink;
 
         // Animación crecer Y
         float tiempo = 0f;

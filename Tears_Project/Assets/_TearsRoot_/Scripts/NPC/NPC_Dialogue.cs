@@ -15,6 +15,7 @@ public class NPC_Dialogue : MonoBehaviour
     public int frasePrevia;
     public GameObject minigame;
     public bool hasMinigame;
+    public HearthManagement hM;
     public Player_Controller player;
 
     [Header("Preguntas")]
@@ -25,10 +26,15 @@ public class NPC_Dialogue : MonoBehaviour
     public string yep;
     public string nop;
 
+    private void OnEnable()
+    {
+        hM = FindAnyObjectByType<HearthManagement>();
+        player = FindAnyObjectByType<Player_Controller>();
+    }
+
     private void Start()
     {
         minigame.SetActive(false);
-        player = FindAnyObjectByType<Player_Controller>();
         anksweres.SetActive(false);
     }
 
@@ -71,7 +77,7 @@ public class NPC_Dialogue : MonoBehaviour
             StartCoroutine(Cool());
             if (dialogoAct == dialogo.Length)
             {
-                player.corason = player.corason + hearts;
+                hM.hearts = hM.hearts + hearts;
                 hearts = 0;
             }
         }

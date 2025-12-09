@@ -17,6 +17,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] Image cocoro;
 
     [Header("UI")]
+    public HearthManagement hM;
     public float corason;
     public bool pause;
 
@@ -27,15 +28,20 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] Rigidbody2D playerRb;
     //Animator nya123nyaArigato;
 
+    private void OnEnable()
+    {
+        hM = FindAnyObjectByType<HearthManagement>();
+    }
+
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        corason = 50;
-        //DontDestroyOnLoad(this.gameObject);
     }
 
     private void Update()
     {
+        corason = hM.hearts;
+
         if (are_you_a_boy_or_a_girl)
         {
             boy.gameObject.SetActive(true);

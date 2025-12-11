@@ -26,4 +26,9 @@ public class SpawnDePecawn : MonoBehaviour
     {
         minijuegoDerPes.puntos = minijuegoDerPes.puntos + capturas;
     }
+
+    public void RestarPuntos()
+    {
+        minijuegoDerPes.puntos = minijuegoDerPes.puntos - 1;
+    }
 }

@@ -32,6 +32,7 @@ public class Pescao : MonoBehaviour
         if (collision.CompareTag("Destruct"))
         {
             Instantiate(pointRes, transform.position, Quaternion.identity);
+            spawn.RestarPuntos();
             Destroy(this.gameObject);
         }
     }

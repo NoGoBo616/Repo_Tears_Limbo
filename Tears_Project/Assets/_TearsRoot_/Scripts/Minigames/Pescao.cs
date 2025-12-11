@@ -4,6 +4,8 @@ public class Pescao : MonoBehaviour
 {
     [SerializeField] float spedPescao;
     [SerializeField] GameObject burbujas;
+    [SerializeField] GameObject pointSum;
+    [SerializeField] GameObject pointRes;
     [SerializeField] float puntosPes;
     [SerializeField] SpawnDePecawn spawn;
 
@@ -20,6 +22,7 @@ public class Pescao : MonoBehaviour
     public void Pescar()
     {
         Instantiate(burbujas, transform.position, Quaternion.identity);
+        Instantiate(pointSum, transform.position, Quaternion.identity);
         spawn.SumarPuntos(puntosPes);
         Destroy(this.gameObject);
     }
@@ -28,6 +31,7 @@ public class Pescao : MonoBehaviour
     {
         if (collision.CompareTag("Destruct"))
         {
+            Instantiate(pointRes, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }

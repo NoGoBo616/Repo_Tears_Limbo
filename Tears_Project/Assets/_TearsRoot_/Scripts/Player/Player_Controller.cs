@@ -40,7 +40,7 @@ public class Player_Controller : MonoBehaviour
 
     private void Update()
     {
-        corason = hM.hearts;
+        Flip();
 
         if (are_you_a_boy_or_a_girl)
         {
@@ -52,7 +52,7 @@ public class Player_Controller : MonoBehaviour
             boy.gameObject.SetActive(false);
             girl.gameObject.SetActive(true);
         }
-        Flip();
+        
 
         if (corason >= 100)
         {
@@ -64,6 +64,7 @@ public class Player_Controller : MonoBehaviour
         }
 
         cocoro.fillAmount = corason / 100;
+        corason = hM.hearts;
     }
 
     //Movement

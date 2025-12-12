@@ -4,10 +4,15 @@ using UnityEngine;
 public class Plantica : MonoBehaviour
 {
     public bool agua;
+    float recarga;
+    bool pos;
     public SolYAgua botones;
     public Minigame_Timer almazenDePuntos;
     public GameObject indicar_Agua;
     public GameObject indicar_Sol;
+    public GameObject VFXpos;
+    public GameObject VFXneg;
+    public GameObject invocador;
 
     private void OnEnable()
     {
@@ -45,21 +50,39 @@ public class Plantica : MonoBehaviour
         if (!agua && botones.sun)
         {
             almazenDePuntos.puntos = almazenDePuntos.puntos + 0.01f;
+            pos = true;
         }
 
         if (agua && botones.sun)
         {
             almazenDePuntos.puntos = almazenDePuntos.puntos - 0.01f;
+            pos = false;
         }
 
         if (agua && !botones.sun)
         {
             almazenDePuntos.puntos = almazenDePuntos.puntos + 0.01f;
+            pos = true;
         }
 
         if (!agua && !botones.sun)
         {
             almazenDePuntos.puntos = almazenDePuntos.puntos - 0.01f;
+            pos = false;
+        }
+
+        recarga = recarga + 0.01f;
+        if (recarga >= 1)
+        {
+            if (pos)
+            {
+                Instantiate(VFXpos, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(VFXneg, invocador.transform.position, Quaternion.identity);
+            }
+            recarga = 0;
         }
     }
 }

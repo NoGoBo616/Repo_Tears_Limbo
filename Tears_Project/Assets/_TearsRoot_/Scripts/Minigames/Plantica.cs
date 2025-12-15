@@ -12,7 +12,6 @@ public class Plantica : MonoBehaviour
     public GameObject indicar_Sol;
     public GameObject VFXpos;
     public GameObject VFXneg;
-    public GameObject invocador;
 
     private void OnEnable()
     {
@@ -80,7 +79,7 @@ public class Plantica : MonoBehaviour
             }
             else
             {
-                Instantiate(VFXneg, invocador.transform.position, Quaternion.identity);
+                Instantiate(VFXneg, transform.position, Quaternion.identity);
             }
             recarga = 0;
         }

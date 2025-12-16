@@ -20,11 +20,17 @@ public class NPC_Dialogue : MonoBehaviour
 
     [Header("Preguntas")]
     public bool hasQuest;
+    public bool hasQuest2;
     public bool respondio;
+    public bool respondio2;
     public int question;
+    public int question2;
     public GameObject anksweres;
+    public GameObject anksweres2;
     public string yep;
+    public string yep2;
     public string nop;
+    public string nop2;
 
     private void OnEnable()
     {
@@ -73,6 +79,11 @@ public class NPC_Dialogue : MonoBehaviour
             {
                 anksweres.SetActive(true);
             }
+            if (dialogoAct == question2 && hasQuest2)
+            {
+                anksweres2.SetActive(true);
+            }
+
             dialogoAct++;
             StartCoroutine(Cool());
             if (dialogoAct == dialogo.Length)
@@ -88,19 +99,29 @@ public class NPC_Dialogue : MonoBehaviour
         respondio = true;
         if (!correct)
         {
+            dialogoAct = dialogo.Length-1;
             tmp.text = nop;
-            hearts = hearts - 5;
         }
         else
         {
             tmp.text = yep;
-            if (hearts == -5)
-            {
-                hearts = hearts + 5;
-            }
-            hearts = hearts + 5;
         }
-        anksweres.SetActive(false);
+        anksweres2.SetActive(false);
+    }
+
+    public void Response2(bool correct)
+    {
+        respondio2 = true;
+        if (!correct)
+        {
+            dialogoAct = dialogo.Length-1;
+            tmp.text = nop2;
+        }
+        else
+        {
+            tmp.text = yep2;
+        }
+        anksweres2.SetActive(false);
     }
 
     IEnumerator Cool()

@@ -4,11 +4,13 @@ using UnityEngine;
 public class HearthManagement : MonoBehaviour
 {
     public float hearts;
+    public bool started;
     public Animator anim;
     public GameObject canvas;
 
     private void OnEnable()
     {
+        started = true;
         hearts = 50;
         DontDestroyOnLoad(this.gameObject);
     }

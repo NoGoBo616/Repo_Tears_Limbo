@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneMa : MonoBehaviour
 {
     public HearthManagement animations;
+    public float side;
 
     private void OnEnable()
     {
@@ -12,14 +13,20 @@ public class SceneMa : MonoBehaviour
         animations.OutAnim();
     }
 
-    public void LoadScene(int sceneToLoad)
+    public void LoadPosition(float lao)
     {
-        StartCoroutine(Saltar(sceneToLoad));
+        side = lao;
     }
 
-    IEnumerator Saltar(int scene)
+    public void LoadScene(int sceneToLoad)
+    {
+        StartCoroutine(Saltar(sceneToLoad, side));
+    }
+
+    IEnumerator Saltar(int scene, float laito)
     {
         animations.InAnim();
+        //animations.pos = laito;
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
         yield return null;

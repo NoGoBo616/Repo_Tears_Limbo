@@ -28,7 +28,7 @@ public class Plantica : MonoBehaviour
         {
             agua = true;
         }
-        yield return new WaitForSeconds(Random.Range(3, 7));
+        yield return new WaitForSeconds(7);
         StartCoroutine(Cambio());
         yield return null;
     }

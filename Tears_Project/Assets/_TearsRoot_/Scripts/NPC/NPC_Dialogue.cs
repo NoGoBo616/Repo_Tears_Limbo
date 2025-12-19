@@ -22,7 +22,6 @@ public class NPC_Dialogue : MonoBehaviour
     public bool hasQuest;
     public bool hasQuest2;
     public bool respondio;
-    public bool respondio2;
     public int question;
     public int question2;
     public GameObject anksweres;
@@ -106,12 +105,12 @@ public class NPC_Dialogue : MonoBehaviour
         {
             tmp.text = yep;
         }
-        anksweres2.SetActive(false);
+        anksweres.SetActive(false);
     }
 
     public void Response2(bool correct)
     {
-        respondio2 = true;
+        respondio = true;
         if (!correct)
         {
             dialogoAct = dialogo.Length-1;

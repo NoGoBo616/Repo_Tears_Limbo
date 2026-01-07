@@ -15,7 +15,7 @@ public class SpawnDePecawn : MonoBehaviour
 
     IEnumerator Aparision()
     {
-        gameObject.transform.position = ubicaciones[Random.Range(0, ubicaciones.Length)];
+        gameObject.transform.localPosition = ubicaciones[Random.Range(0, ubicaciones.Length)];
         Instantiate(peses[Random.Range(0, peses.Length)], transform.position, Quaternion.identity);
         yield return new WaitForSeconds(tiempo);
         StartCoroutine(Aparision());

@@ -9,6 +9,8 @@ public class NPC_Dialogue : MonoBehaviour
     public int dialogoAct;
     public TMP_Text tmp;
     public bool canTalk;
+    public bool secondTime;
+    public int segundo;
     public float hearts;
 
     [Header("Minijuegos")]
@@ -68,6 +70,11 @@ public class NPC_Dialogue : MonoBehaviour
     {
         if (canTalk && !player.pause)
         {
+            if (secondTime && dialogoAct == 0)
+            {
+                dialogoAct = segundo;
+            }
+
             anksweres.SetActive(false);
             respondio = false;
             if (dialogoAct == frasePrevia && hasMinigame)
@@ -82,14 +89,16 @@ public class NPC_Dialogue : MonoBehaviour
             {
                 anksweres2.SetActive(true);
             }
+            if (dialogoAct == dialogo.Length)
+            {
+                Debug.Log("ya has hablado");
+                hM.hearts = hM.hearts + hearts;
+                hearts = 0; 
+                secondTime = true;
+            }
 
             dialogoAct++;
             StartCoroutine(Cool());
-            if (dialogoAct == dialogo.Length)
-            {
-                hM.hearts = hM.hearts + hearts;
-                hearts = 0;
-            }
         }
     }
 

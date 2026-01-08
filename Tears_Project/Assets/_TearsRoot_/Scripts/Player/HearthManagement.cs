@@ -9,6 +9,7 @@ public class HearthManagement : MonoBehaviour
     public GameObject canvas;
     public Player_Controller player;
     public float pos;
+    public bool[] objects;
 
     private void OnEnable()
     {
@@ -31,7 +32,7 @@ public class HearthManagement : MonoBehaviour
     IEnumerator Salir()
     {
         player = FindAnyObjectByType<Player_Controller>();
-        player.gameObject.transform.position = new Vector2(player.gameObject.transform.position.x, pos);
+        player.gameObject.transform.position = new Vector2(pos, player.gameObject.transform.position.y);
         anim.SetTrigger("Out");
         yield return new WaitForSeconds(0.4f);
         canvas.SetActive(false);

@@ -15,18 +15,17 @@ public class SceneMa : MonoBehaviour
 
     public void LoadPosition(float lao)
     {
-        side = lao;
+        animations.pos = lao;
     }
 
     public void LoadScene(int sceneToLoad)
     {
-        StartCoroutine(Saltar(sceneToLoad, side));
+        StartCoroutine(Saltar(sceneToLoad));
     }
 
-    IEnumerator Saltar(int scene, float laito)
+    IEnumerator Saltar(int scene)
     {
         animations.InAnim();
-        //animations.pos = laito;
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(scene);
         yield return null;

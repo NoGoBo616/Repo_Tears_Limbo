@@ -26,7 +26,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] GameObject girl;
 
     [SerializeField] Rigidbody2D playerRb;
-    //Animator nya123nyaArigato;
+    public Animator nya123nyaArigato;
 
     private void OnEnable()
     {
@@ -52,7 +52,8 @@ public class Player_Controller : MonoBehaviour
             boy.gameObject.SetActive(false);
             girl.gameObject.SetActive(true);
         }
-        
+
+        //Corazones
 
         if (corason >= 100)
         {
@@ -62,9 +63,19 @@ public class Player_Controller : MonoBehaviour
         {
             corason = 0;
         }
-
         cocoro.fillAmount = corason / 100;
         corason = hM.hearts;
+
+        //Animacion
+
+        if (isGronded)
+        {
+            nya123nyaArigato.SetBool("Jump", false);
+        }
+        else
+        {
+            nya123nyaArigato.SetBool("Jump", true);
+        }
     }
 
     //Movement
@@ -77,12 +88,21 @@ public class Player_Controller : MonoBehaviour
     private void FixedUpdate()
     {
         Movement();
+        if (playerRb.linearVelocityX == 0)
+        {
+            nya123nyaArigato.SetBool("Run", false);
+        }
+        else
+        {
+            nya123nyaArigato.SetBool("Run", true);
+        }
     }
 
     public void Movement()
     {
         if (!pause) playerRb.linearVelocity = new Vector3(moveinput.x * speed, playerRb.linearVelocity.y, 0);
     }
+    
 
     //Flip
 

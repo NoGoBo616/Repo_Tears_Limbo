@@ -68,14 +68,7 @@ public class Player_Controller : MonoBehaviour
 
         //Animacion
 
-        if (isGronded)
-        {
-            nya123nyaArigato.SetBool("Jump", false);
-        }
-        else
-        {
-            nya123nyaArigato.SetBool("Jump", true);
-        }
+        nya123nyaArigato.SetBool("Jump", !isGronded);
     }
 
     //Movement

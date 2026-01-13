@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: fd2f8916a31482544b37116ca62f5843
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7986197988147174239
+    second: TablasFinal2_Background_0
+  - first:
+      213: 2912938031257762580
+    second: TablasFinal2_Background_1
+  - first:
+      213: -5354764771394610502
+    second: TablasFinal2_Background_2
+  - first:
+      213: -710826982200142390
+    second: TablasFinal2_Background_3
+  - first:
+      213: 2629622655451088581
+    second: TablasFinal2_Background_4
+  - first:
+      213: -6292406852435550838
+    second: TablasFinal2_Background_5
+  - first:
+      213: 3444904285372406497
+    second: TablasFinal2_Background_6
+  - first:
+      213: 5452802569892788894
+    second: TablasFinal2_Background_7
+  - first:
+      213: 7370242056505869551
+    second: TablasFinal2_Background_8
+  - first:
+      213: -5046281744936589116
+    second: TablasFinal2_Background_9
+  - first:
+      213: -6064257674123922357
+    second: TablasFinal2_Background_10
+  - first:
+      213: -4562228597811672247
+    second: TablasFinal2_Background_11
+  - first:
+      213: -8043081352963085589
+    second: TablasFinal2_Background_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TablasFinal2_Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 36
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b937de1cca4de60800000000000000
+      internalID: 7986197988147174239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b38ddb4b5dc6820800000000000000
+      internalID: 2912938031257762580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba9f39afcd00b5b0800000000000000
+      internalID: -5354764771394610502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5923530a2a226f0800000000000000
+      internalID: -710826982200142390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c64b7f6fdb4e7420800000000000000
+      internalID: 2629622655451088581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d585a6e41eca8a0800000000000000
+      internalID: -6292406852435550838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ead7d61232cecf20800000000000000
+      internalID: 3444904285372406497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9afbc01c0f3cab40800000000000000
+      internalID: 5452802569892788894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_8
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe44da6e91c584660800000000000000
+      internalID: 7370242056505869551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c824844d7108f9b0800000000000000
+      internalID: -5046281744936589116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44386376cd67dba0800000000000000
+      internalID: -6064257674123922357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_11
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 41
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b8e431345bfa0c0800000000000000
+      internalID: -4562228597811672247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TablasFinal2_Background_12
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 39
+        width: 109
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea2111af1c316090800000000000000
+      internalID: -8043081352963085589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TablasFinal2_Background_0: 7986197988147174239
+      TablasFinal2_Background_1: 2912938031257762580
+      TablasFinal2_Background_10: -6064257674123922357
+      TablasFinal2_Background_11: -4562228597811672247
+      TablasFinal2_Background_12: -8043081352963085589
+      TablasFinal2_Background_2: -5354764771394610502
+      TablasFinal2_Background_3: -710826982200142390
+      TablasFinal2_Background_4: 2629622655451088581
+      TablasFinal2_Background_5: -6292406852435550838
+      TablasFinal2_Background_6: 3444904285372406497
+      TablasFinal2_Background_7: 5452802569892788894
+      TablasFinal2_Background_8: 7370242056505869551
+      TablasFinal2_Background_9: -5046281744936589116
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

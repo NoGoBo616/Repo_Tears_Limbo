@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: a4838e317a2efb94ab246040869b1f5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1425310568551790332
+    second: Reflejo8_Background_0
+  - first:
+      213: 4502982467198238802
+    second: Reflejo8_Background_1
+  - first:
+      213: -799129748064947907
+    second: Reflejo8_Background_2
+  - first:
+      213: 1646961446704862630
+    second: Reflejo8_Background_3
+  - first:
+      213: 8398334708071524774
+    second: Reflejo8_Background_4
+  - first:
+      213: -2770294025360811287
+    second: Reflejo8_Background_5
+  - first:
+      213: 5051923329591126620
+    second: Reflejo8_Background_6
+  - first:
+      213: 3912429440429033727
+    second: Reflejo8_Background_7
+  - first:
+      213: 6006538165643608564
+    second: Reflejo8_Background_8
+  - first:
+      213: 2836520804029743476
+    second: Reflejo8_Background_9
+  - first:
+      213: 8450409875817651618
+    second: Reflejo8_Background_10
+  - first:
+      213: -5891383145794077137
+    second: Reflejo8_Background_11
+  - first:
+      213: 3251004712755637733
+    second: Reflejo8_Background_12
+  - first:
+      213: -7586222459047513635
+    second: Reflejo8_Background_13
+  - first:
+      213: -2684980823461696198
+    second: Reflejo8_Background_14
+  - first:
+      213: 3067684389778880280
+    second: Reflejo8_Background_15
+  - first:
+      213: -7386826171402964350
+    second: Reflejo8_Background_16
+  - first:
+      213: 8816020268205747420
+    second: Reflejo8_Background_17
+  - first:
+      213: 8891850417495795737
+    second: Reflejo8_Background_18
+  - first:
+      213: -4487317508970327300
+    second: Reflejo8_Background_19
+  - first:
+      213: -7970843406694233124
+    second: Reflejo8_Background_20
+  - first:
+      213: -3342865326445211495
+    second: Reflejo8_Background_21
+  - first:
+      213: -8279476485242918627
+    second: Reflejo8_Background_22
+  - first:
+      213: 5783181936935165964
+    second: Reflejo8_Background_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reflejo8_Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 34
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6b3251968b7c310800000000000000
+      internalID: 1425310568551790332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250c92332becd7e30800000000000000
+      internalID: 4502982467198238802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3134256abbe8e4f0800000000000000
+      internalID: -799129748064947907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a55b95b5be2bd610800000000000000
+      internalID: 1646961446704862630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9ef63bbe0ec8470800000000000000
+      internalID: 8398334708071524774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea5bf6f240fd89d0800000000000000
+      internalID: -2770294025360811287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa9c480890c1640800000000000000
+      internalID: 5051923329591126620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_7
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff88d8dd8ddbb4630800000000000000
+      internalID: 3912429440429033727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_8
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1830d33a28b5350800000000000000
+      internalID: 6006538165643608564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c23a84a85d5720800000000000000
+      internalID: 2836520804029743476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad50968203e54570800000000000000
+      internalID: 8450409875817651618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_11
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e78372e3a9d3ea0800000000000000
+      internalID: -5891383145794077137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_12
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edabeacf83ed1d20800000000000000
+      internalID: 3251004712755637733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_13
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f165fdd258b690800000000000000
+      internalID: -7586222459047513635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_14
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d64dcaa280dbad0800000000000000
+      internalID: -2684980823461696198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_15
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817f7cff2ba929a20800000000000000
+      internalID: 3067684389778880280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_16
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b7f3fbb8bc7990800000000000000
+      internalID: -7386826171402964350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc2c0389bbc85a70800000000000000
+      internalID: 8816020268205747420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_18
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918eebaf7d2366b70800000000000000
+      internalID: 8891850417495795737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_19
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 41
+        width: 115
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2de6b1088d9b1c0800000000000000
+      internalID: -4487317508970327300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_20
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 39
+        width: 107
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbc9b72720e16190800000000000000
+      internalID: -7970843406694233124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_21
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 40
+        width: 109
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990534562b1cb91d0800000000000000
+      internalID: -3342865326445211495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_22
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 39
+        width: 101
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1965e2d004691d80800000000000000
+      internalID: -8279476485242918627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reflejo8_Background_23
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 41
+        width: 80
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00e97eb45df14050800000000000000
+      internalID: 5783181936935165964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Reflejo8_Background_0: 1425310568551790332
+      Reflejo8_Background_1: 4502982467198238802
+      Reflejo8_Background_10: 8450409875817651618
+      Reflejo8_Background_11: -5891383145794077137
+      Reflejo8_Background_12: 3251004712755637733
+      Reflejo8_Background_13: -7586222459047513635
+      Reflejo8_Background_14: -2684980823461696198
+      Reflejo8_Background_15: 3067684389778880280
+      Reflejo8_Background_16: -7386826171402964350
+      Reflejo8_Background_17: 8816020268205747420
+      Reflejo8_Background_18: 8891850417495795737
+      Reflejo8_Background_19: -4487317508970327300
+      Reflejo8_Background_2: -799129748064947907
+      Reflejo8_Background_20: -7970843406694233124
+      Reflejo8_Background_21: -3342865326445211495
+      Reflejo8_Background_22: -8279476485242918627
+      Reflejo8_Background_23: 5783181936935165964
+      Reflejo8_Background_3: 1646961446704862630
+      Reflejo8_Background_4: 8398334708071524774
+      Reflejo8_Background_5: -2770294025360811287
+      Reflejo8_Background_6: 5051923329591126620
+      Reflejo8_Background_7: 3912429440429033727
+      Reflejo8_Background_8: 6006538165643608564
+      Reflejo8_Background_9: 2836520804029743476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

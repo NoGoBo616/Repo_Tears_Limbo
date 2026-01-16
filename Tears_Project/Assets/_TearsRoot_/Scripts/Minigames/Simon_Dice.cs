@@ -84,7 +84,7 @@ public class Simon_Dice : MonoBehaviour
         if (!esperandoJugador) return;
 
         //Cambia el transform.position por la posicion del boton que se pulse en cada momento
-        Instantiate(gameObjects[colorIndex], botones[colorIndex].transform.position, Quaternion.identity);
+        //Instantiate(gameObjects[colorIndex], botones[colorIndex].transform.position, Quaternion.identity);
 
         if (colorIndex == secuencia[indiceJugador])
         {

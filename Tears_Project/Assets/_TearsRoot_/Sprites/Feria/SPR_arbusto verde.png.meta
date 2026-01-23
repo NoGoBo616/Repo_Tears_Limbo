@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: ef2e9d39936dd424b943847dc583785c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5907692349776069237
+    second: SPR_arbusto verde_0
+  - first:
+      213: 5892817487884044730
+    second: SPR_arbusto verde_1
+  - first:
+      213: -4317536312603115996
+    second: SPR_arbusto verde_2
+  - first:
+      213: 2375692551393425801
+    second: SPR_arbusto verde_3
+  - first:
+      213: 3879510840296812189
+    second: SPR_arbusto verde_4
+  - first:
+      213: -5177110329744443928
+    second: SPR_arbusto verde_5
+  - first:
+      213: 1774812678884321538
+    second: SPR_arbusto verde_6
+  - first:
+      213: -7339456508464089331
+    second: SPR_arbusto verde_7
+  - first:
+      213: -2675845113062308407
+    second: SPR_arbusto verde_8
+  - first:
+      213: -9182506579472330969
+    second: SPR_arbusto verde_9
+  - first:
+      213: 6496155305790106720
+    second: SPR_arbusto verde_10
+  - first:
+      213: -5390871506376739383
+    second: SPR_arbusto verde_11
+  - first:
+      213: -1028250260770264094
+    second: SPR_arbusto verde_12
+  - first:
+      213: 3771733676648079719
+    second: SPR_arbusto verde_13
+  - first:
+      213: 651308477206721922
+    second: SPR_arbusto verde_14
+  - first:
+      213: 4090708172074358532
+    second: SPR_arbusto verde_15
+  - first:
+      213: -2631589950203462334
+    second: SPR_arbusto verde_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPR_arbusto verde_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2040
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dfd41bb19a30ea0800000000000000
+      internalID: -5907692349776069237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 203
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9c983a84e77c150800000000000000
+      internalID: 5892817487884044730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 207
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ef07659970514c0800000000000000
+      internalID: -4317536312603115996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 204
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b85dd9c728f020800000000000000
+      internalID: 2375692551393425801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_4
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 209
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e2b220e8ac6d530800000000000000
+      internalID: 3879510840296812189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_5
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 179
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5b398a5953728b0800000000000000
+      internalID: -5177110329744443928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_6
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 183
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20962c36ab661a810800000000000000
+      internalID: 1774812678884321538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_7
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 180
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07b1901133052a90800000000000000
+      internalID: -7339456508464089331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_8
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 173
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c4f10c0d7ddad0800000000000000
+      internalID: -2675845113062308407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_9
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 169
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f4ddebaee219080800000000000000
+      internalID: -9182506579472330969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_10
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 172
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c636f15daf62a50800000000000000
+      internalID: 6496155305790106720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_11
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 170
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5b3a05de6cf25b0800000000000000
+      internalID: -5390871506376739383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 12
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebe592f5dbeab1f0800000000000000
+      internalID: -1028250260770264094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_13
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 14
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761acff9bc3e75430800000000000000
+      internalID: 3771733676648079719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 17
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857b17fb99e90900800000000000000
+      internalID: 651308477206721922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_15
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 16
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4079744b86d15c830800000000000000
+      internalID: 4090708172074358532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPR_arbusto verde_16
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 15
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d72af02e6ba7bd0800000000000000
+      internalID: -2631589950203462334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPR_arbusto verde_0: -5907692349776069237
+      SPR_arbusto verde_1: 5892817487884044730
+      SPR_arbusto verde_10: 6496155305790106720
+      SPR_arbusto verde_11: -5390871506376739383
+      SPR_arbusto verde_12: -1028250260770264094
+      SPR_arbusto verde_13: 3771733676648079719
+      SPR_arbusto verde_14: 651308477206721922
+      SPR_arbusto verde_15: 4090708172074358532
+      SPR_arbusto verde_16: -2631589950203462334
+      SPR_arbusto verde_2: -4317536312603115996
+      SPR_arbusto verde_3: 2375692551393425801
+      SPR_arbusto verde_4: 3879510840296812189
+      SPR_arbusto verde_5: -5177110329744443928
+      SPR_arbusto verde_6: 1774812678884321538
+      SPR_arbusto verde_7: -7339456508464089331
+      SPR_arbusto verde_8: -2675845113062308407
+      SPR_arbusto verde_9: -9182506579472330969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

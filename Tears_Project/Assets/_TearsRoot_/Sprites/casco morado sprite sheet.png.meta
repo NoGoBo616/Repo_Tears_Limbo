@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 6f1a8bff800e97143bc677a29ca434f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8412795014816257529
+    second: casco morado sprite sheet_0
+  - first:
+      213: 6176431406820659063
+    second: casco morado sprite sheet_1
+  - first:
+      213: 7561717358129294016
+    second: casco morado sprite sheet_2
+  - first:
+      213: 8373135319575494588
+    second: casco morado sprite sheet_3
+  - first:
+      213: -3419011606654797200
+    second: casco morado sprite sheet_4
+  - first:
+      213: 4785243777143774832
+    second: casco morado sprite sheet_5
+  - first:
+      213: 2653965151935572806
+    second: casco morado sprite sheet_6
+  - first:
+      213: -429087007398621386
+    second: casco morado sprite sheet_7
+  - first:
+      213: -7009130123892686928
+    second: casco morado sprite sheet_8
+  - first:
+      213: 2800529469790231776
+    second: casco morado sprite sheet_9
+  - first:
+      213: -369672713593797979
+    second: casco morado sprite sheet_10
+  - first:
+      213: -6615814153487271158
+    second: casco morado sprite sheet_11
+  - first:
+      213: 2575341848595121148
+    second: casco morado sprite sheet_12
+  - first:
+      213: -3209449544936747197
+    second: casco morado sprite sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casco morado sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a23b5c18fbf3b80800000000000000
+      internalID: -8412795014816257529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f8c1fe3a717b550800000000000000
+      internalID: 6176431406820659063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caa33f9fdd90f860800000000000000
+      internalID: 7561717358129294016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbff29bd53a533470800000000000000
+      internalID: 8373135319575494588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a3766fe0b3d80d0800000000000000
+      internalID: -3419011606654797200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8750
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9d4cacd9986240800000000000000
+      internalID: 4785243777143774832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba26f8e37c4d420800000000000000
+      internalID: 2653965151935572806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f0542e3a39b0af0800000000000000
+      internalID: -429087007398621386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bff2ecc9419abe90800000000000000
+      internalID: -7009130123892686928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1cd507ba7dd620800000000000000
+      internalID: 2800529469790231776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2461720a8aedaf0800000000000000
+      internalID: -369672713593797979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bb3695418ef24a0800000000000000
+      internalID: -6615814153487271158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8750
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3c5bc34c37db320800000000000000
+      internalID: 2575341848595121148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casco morado sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f818da4aeb573d0800000000000000
+      internalID: -3209449544936747197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a9c34572fbd9b8d4bad7662fc24808ab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1750.0,"y":2480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      casco morado sprite sheet_0: -8412795014816257529
+      casco morado sprite sheet_1: 6176431406820659063
+      casco morado sprite sheet_10: -369672713593797979
+      casco morado sprite sheet_11: -6615814153487271158
+      casco morado sprite sheet_12: 2575341848595121148
+      casco morado sprite sheet_13: -3209449544936747197
+      casco morado sprite sheet_2: 7561717358129294016
+      casco morado sprite sheet_3: 8373135319575494588
+      casco morado sprite sheet_4: -3419011606654797200
+      casco morado sprite sheet_5: 4785243777143774832
+      casco morado sprite sheet_6: 2653965151935572806
+      casco morado sprite sheet_7: -429087007398621386
+      casco morado sprite sheet_8: -7009130123892686928
+      casco morado sprite sheet_9: 2800529469790231776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

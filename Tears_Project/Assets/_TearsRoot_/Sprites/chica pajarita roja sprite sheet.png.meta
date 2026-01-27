@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 2eb0be319160cee4db51523abdbf1a27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 416536319998457777
+    second: chica pajarita roja sprite sheet_0
+  - first:
+      213: 3431830216818230526
+    second: chica pajarita roja sprite sheet_1
+  - first:
+      213: 7491392715869195854
+    second: chica pajarita roja sprite sheet_2
+  - first:
+      213: 7685568102244946837
+    second: chica pajarita roja sprite sheet_3
+  - first:
+      213: 4276180013624074652
+    second: chica pajarita roja sprite sheet_4
+  - first:
+      213: 4378672383231563214
+    second: chica pajarita roja sprite sheet_5
+  - first:
+      213: 2077156364075119028
+    second: chica pajarita roja sprite sheet_6
+  - first:
+      213: 3877973188397572371
+    second: chica pajarita roja sprite sheet_7
+  - first:
+      213: -3030903161177335601
+    second: chica pajarita roja sprite sheet_8
+  - first:
+      213: 8119091912212532565
+    second: chica pajarita roja sprite sheet_9
+  - first:
+      213: -9194040054006000596
+    second: chica pajarita roja sprite sheet_10
+  - first:
+      213: 2336460110304333292
+    second: chica pajarita roja sprite sheet_11
+  - first:
+      213: -4073458443396435506
+    second: chica pajarita roja sprite sheet_12
+  - first:
+      213: -6184628722227941949
+    second: chica pajarita roja sprite sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77e8d7395d7c500800000000000000
+      internalID: 416536319998457777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef407ea466f40af20800000000000000
+      internalID: 3431830216818230526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e0556ebf5c6f760800000000000000
+      internalID: 7491392715869195854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5931267187f98aa60800000000000000
+      internalID: 7685568102244946837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9120b3f01b085b30800000000000000
+      internalID: 4276180013624074652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec59456555b24cc30800000000000000
+      internalID: 4378672383231563214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 1748
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b3a735ba83dc10800000000000000
+      internalID: 2077156364075119028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3112de6811451d530800000000000000
+      internalID: 3877973188397572371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc89a6122a110f5d0800000000000000
+      internalID: -3030903161177335601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dcc2ec31fcca070800000000000000
+      internalID: 8119091912212532565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2452427845386080800000000000000
+      internalID: -9194040054006000596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced4f8a5716cc6020800000000000000
+      internalID: 2336460110304333292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec13a0ab02b2877c0800000000000000
+      internalID: -4073458443396435506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chica pajarita roja sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 0
+        width: 1240
+        height: 1748
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdece7d1f8cb2aa0800000000000000
+      internalID: -6184628722227941949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42c998ba16067704b834f72748f191e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1240.0,"y":1748.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      chica pajarita roja sprite sheet_0: 416536319998457777
+      chica pajarita roja sprite sheet_1: 3431830216818230526
+      chica pajarita roja sprite sheet_10: -9194040054006000596
+      chica pajarita roja sprite sheet_11: 2336460110304333292
+      chica pajarita roja sprite sheet_12: -4073458443396435506
+      chica pajarita roja sprite sheet_13: -6184628722227941949
+      chica pajarita roja sprite sheet_2: 7491392715869195854
+      chica pajarita roja sprite sheet_3: 7685568102244946837
+      chica pajarita roja sprite sheet_4: 4276180013624074652
+      chica pajarita roja sprite sheet_5: 4378672383231563214
+      chica pajarita roja sprite sheet_6: 2077156364075119028
+      chica pajarita roja sprite sheet_7: 3877973188397572371
+      chica pajarita roja sprite sheet_8: -3030903161177335601
+      chica pajarita roja sprite sheet_9: 8119091912212532565
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

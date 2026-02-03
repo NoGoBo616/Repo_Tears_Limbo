@@ -14,7 +14,6 @@ public class HearthManagement : MonoBehaviour
     private void OnEnable()
     {
         started = true;
-        hearts = 50;
         DontDestroyOnLoad(this.gameObject);
     }
 

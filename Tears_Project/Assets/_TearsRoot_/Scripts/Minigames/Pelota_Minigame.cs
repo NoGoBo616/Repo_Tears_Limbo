@@ -25,7 +25,7 @@ public class Pelota_Minigame : MonoBehaviour
         if (collision.gameObject.CompareTag("bolita"))
         {
             this.gameObject.SetActive(false);
-            minigame.puntos = minigame.puntos - 5;
+            minigame.puntos = minigame.puntos - 10;
             this.gameObject.transform.localPosition = new Vector2(Random.Range(-0.1f, -0.1f), 7);
             this.gameObject.SetActive(true);
         }

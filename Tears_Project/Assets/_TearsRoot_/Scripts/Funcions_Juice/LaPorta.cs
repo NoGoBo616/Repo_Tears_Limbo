@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LaPorta : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class LaPorta : MonoBehaviour
     public int tutorialWord;
     public bool canTalk;
     public HearthManagement player;
+    public SceneMa cambio;
 
     private void Start()
     {
@@ -68,11 +70,6 @@ public class LaPorta : MonoBehaviour
             if (player.hearts <= 95)
             {
                 tmp.text = dialoge[tutorialWord];
-            }
-
-            if (player.hearts >= 96)
-            {
-                tmp.text = final[tutorialWord];
             }
         }
     }

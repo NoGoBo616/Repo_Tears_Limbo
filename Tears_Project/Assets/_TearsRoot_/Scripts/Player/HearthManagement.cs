@@ -1,5 +1,8 @@
 using System.Collections;
+using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HearthManagement : MonoBehaviour
 {
@@ -21,6 +24,25 @@ public class HearthManagement : MonoBehaviour
     {
         canvas.SetActive(true);
         anim.SetTrigger("In");
+    }
+
+    private void Update()
+    {
+        if (hearts <= 0)
+        {
+            InAnim();
+            SceneManager.LoadScene(8);
+            Salir();
+            Destroy(this.gameObject);
+        }
+
+        if (hearts >= 100)
+        {
+            InAnim();
+            SceneManager.LoadScene(9);
+            Salir();
+            Destroy(this.gameObject);
+        }
     }
 
     public void OutAnim()

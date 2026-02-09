@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: f979e225bca7f6445b3e1d58dfba5209
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2916394799142932322
+    second: pescador sprite sheet_0
+  - first:
+      213: -710523722360790099
+    second: pescador sprite sheet_1
+  - first:
+      213: -9031191877979177933
+    second: pescador sprite sheet_2
+  - first:
+      213: 1753838020668075616
+    second: pescador sprite sheet_3
+  - first:
+      213: -5628097568575035631
+    second: pescador sprite sheet_4
+  - first:
+      213: -5115557161319202998
+    second: pescador sprite sheet_5
+  - first:
+      213: 16548120803001634
+    second: pescador sprite sheet_6
+  - first:
+      213: 2676739079056234329
+    second: pescador sprite sheet_7
+  - first:
+      213: 6653932931717536677
+    second: pescador sprite sheet_8
+  - first:
+      213: 568164989204265403
+    second: pescador sprite sheet_9
+  - first:
+      213: -949008516494325728
+    second: pescador sprite sheet_10
+  - first:
+      213: -843290684763468357
+    second: pescador sprite sheet_11
+  - first:
+      213: 2138120368327715726
+    second: pescador sprite sheet_12
+  - first:
+      213: 4659627613550098722
+    second: pescador sprite sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pescador sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90f944c162e687d0800000000000000
+      internalID: -2916394799142932322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da362346076b326f0800000000000000
+      internalID: -710523722360790099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c78a616d2caa280800000000000000
+      internalID: -9031191877979177933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eae773362e65810800000000000000
+      internalID: 1753838020668075616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11768df841bf4e1b0800000000000000
+      internalID: -5628097568575035631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8750
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffc5b7dd3e109b0800000000000000
+      internalID: -5115557161319202998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 2480
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225c92e9d6aca3000800000000000000
+      internalID: 16548120803001634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9579d8ba200b52520800000000000000
+      internalID: 2676739079056234329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab1c425fb4875c50800000000000000
+      internalID: 6653932931717536677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb975532c0782e700800000000000000
+      internalID: 568164989204265403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028098548c174d2f0800000000000000
+      internalID: -949008516494325728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd074417970c44f0800000000000000
+      internalID: -843290684763468357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8750
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b633195212cad10800000000000000
+      internalID: 2138120368327715726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pescador sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 0
+        width: 1750
+        height: 2480
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229314370a25aa040800000000000000
+      internalID: 4659627613550098722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5b4c430c6e2fb064db0a84affaebacb9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1750.0,"y":2480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pescador sprite sheet_0: -2916394799142932322
+      pescador sprite sheet_1: -710523722360790099
+      pescador sprite sheet_10: -949008516494325728
+      pescador sprite sheet_11: -843290684763468357
+      pescador sprite sheet_12: 2138120368327715726
+      pescador sprite sheet_13: 4659627613550098722
+      pescador sprite sheet_2: -9031191877979177933
+      pescador sprite sheet_3: 1753838020668075616
+      pescador sprite sheet_4: -5628097568575035631
+      pescador sprite sheet_5: -5115557161319202998
+      pescador sprite sheet_6: 16548120803001634
+      pescador sprite sheet_7: 2676739079056234329
+      pescador sprite sheet_8: 6653932931717536677
+      pescador sprite sheet_9: 568164989204265403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

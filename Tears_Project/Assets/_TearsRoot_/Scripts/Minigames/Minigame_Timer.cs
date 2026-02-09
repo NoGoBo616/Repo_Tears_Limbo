@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,10 +8,15 @@ public class Minigame_Timer : MonoBehaviour
     public float timeCrono;
     public Image cronoVista;
     public float puntos;
-    public NPC_Dialogue NPC;
-
+    public HearthManagement NPC;
+    public TMP_Text puntosText;
     public Animator anim;
     public Rigidbody2D rb;
+
+    private void Awake()
+    {
+        NPC = FindAnyObjectByType<HearthManagement>();
+    }
 
     private void OnEnable()
     {
@@ -26,6 +32,7 @@ public class Minigame_Timer : MonoBehaviour
 
     private void Update()
     {
+        puntosText.text = (puntos).ToString();
         timeCrono = timeCrono - 1f * Time.deltaTime;
         cronoVista.fillAmount = timeCrono / 60;
         if (timeCrono <= 0)
@@ -36,7 +43,7 @@ public class Minigame_Timer : MonoBehaviour
 
     private void OnDisable()
     {
-        NPC.hearts = NPC.hearts + puntos/10;
+        NPC.hearts = NPC.hearts + puntos/5;
         puntos = 0;
     }
 

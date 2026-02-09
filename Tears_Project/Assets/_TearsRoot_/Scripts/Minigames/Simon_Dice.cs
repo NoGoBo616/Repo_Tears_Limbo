@@ -12,6 +12,8 @@ public class Simon_Dice : MonoBehaviour
     public float animTiempo = 0.2f;
     public Minigame_Timer minigame;
     public GameObject[] gameObjects;
+    public GameObject puntos_Pos;
+    public GameObject puntos_Neg;
 
     public List<int> secuencia = new List<int>();
     private int indiceJugador = 0;
@@ -93,15 +95,17 @@ public class Simon_Dice : MonoBehaviour
             if (indiceJugador >= secuencia.Count)
             {
                 esperandoJugador = false;
-                minigame.puntos = minigame.puntos + 10;
+                minigame.puntos = minigame.puntos + 1;
                 Invoke(nameof(AñadirPaso), 1f);
+                Instantiate(puntos_Pos, transform.position, Quaternion.identity);
             }
         }
         else
         {
             Debug.Log("GAME OVER");
             IniciarJuego();
-            minigame.puntos = minigame.puntos - 5;
+            minigame.puntos = minigame.puntos - 1;
+            Instantiate(puntos_Neg, transform.position, Quaternion.identity);
         }
     }
 

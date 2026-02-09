@@ -6,6 +6,7 @@ public class SceneMa : MonoBehaviour
 {
     public HearthManagement animations;
     public float side;
+    bool toched;
 
     private void OnEnable()
     {
@@ -13,14 +14,24 @@ public class SceneMa : MonoBehaviour
         animations.OutAnim();
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        toched = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        toched = false;
+    }
+
     public void LoadPosition(float lao)
     {
-        animations.pos = lao;
+        if (toched) animations.pos = lao;
     }
 
     public void LoadScene(int sceneToLoad)
     {
-        StartCoroutine(Saltar(sceneToLoad));
+        if (toched) StartCoroutine(Saltar(sceneToLoad));
     }
 
     IEnumerator Saltar(int scene)

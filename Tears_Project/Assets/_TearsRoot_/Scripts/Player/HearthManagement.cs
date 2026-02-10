@@ -1,6 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,10 +11,12 @@ public class HearthManagement : MonoBehaviour
     public Player_Controller player;
     public float pos;
     public bool[] objects;
+    bool inGame;
 
     private void OnEnable()
     {
         started = true;
+        inGame = true;
         DontDestroyOnLoad(this.gameObject);
     }
 
@@ -28,26 +28,39 @@ public class HearthManagement : MonoBehaviour
 
     private void Update()
     {
-        if (hearts <= 0)
+        if (inGame)
         {
-            InAnim();
-            SceneManager.LoadScene(8);
-            Salir();
-            Destroy(this.gameObject);
-        }
+            if (hearts <= 0)
+            {
+                YouLost();
+                inGame = false;
+            }
 
-        if (hearts >= 100)
-        {
-            InAnim();
-            SceneManager.LoadScene(9);
-            Salir();
-            Destroy(this.gameObject);
+            if (hearts >= 100)
+            {
+                YouWin();
+                inGame = false;
+            }
         }
     }
 
     public void OutAnim()
     {
         StartCoroutine(Salir());
+    }
+
+    public void YouLost()
+    {
+        InAnim();
+        SceneManager.LoadScene(8);
+        OutAnim();
+    }
+
+    public void YouWin()
+    {
+        InAnim();
+        SceneManager.LoadScene(9);
+        OutAnim();
     }
 
     IEnumerator Salir()

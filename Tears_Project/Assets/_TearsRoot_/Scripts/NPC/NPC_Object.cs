@@ -54,7 +54,7 @@ public class NPC_Object : MonoBehaviour
                 veces++;
                 if (veces >= meCanse)
                 {
-                    comprovador.hearts = comprovador.hearts - hearts;
+                    comprovador.hearts = comprovador.hearts - 10;
                     veces = 0;
                 }
                 dialogoAct = 0;

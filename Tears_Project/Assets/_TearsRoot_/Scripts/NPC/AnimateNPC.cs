@@ -4,6 +4,7 @@ public class AnimateNPC : MonoBehaviour
 {
     public Animator[] animator;
     public GameObject[] personajes;
+    public GameObject vfx;
     public int skin;
     public NPC_Dialogue minigame;
     public NPC_Object obgeto;
@@ -33,11 +34,13 @@ public class AnimateNPC : MonoBehaviour
             if(minigame.dialogoAct == 0)
             {
                 animator[skin].SetBool("Talk", false);
+                vfx.SetActive(true);
                 Debug.Log("callao");
             }
             if (minigame.dialogoAct != 0)
             {
                 animator[skin].SetBool("Talk", true);
+                vfx.SetActive(false);
                 Debug.Log("hablando");
             }
         }
